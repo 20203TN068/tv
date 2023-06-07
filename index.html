@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Televisión</title>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="card text-center p-5">
+            <div class="card-body">
+                <div class="row align-items-end g-4">
+                    <div class="col-12">
+                        <div class="row g-4 justify-content-center">
+                            <div id="tv">
+                                <button id="volumen-level" class="btn btn-secondary" disabled>Volumen: 0</button>
+                                <button id="channel-level" class="btn btn-secondary" disables>Canal: 0</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row g-4 justify-content-center">
+                            <button id="power" class="btn btn-success w-100">Encender/Apagar</button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row g-4 justify-content-center">
+                            <button id="more-volumen" class="btn btn-secondary w-100" disabled>Volumen + </button>
+                            <button id="less-volumen" class="btn btn-secondary w-100" disabled>Volumen -</button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row g-4 justify-content-center">
+                            <button id="more-channel" class="btn btn-secondary w-100" disabled>Canal + </button>
+                            <button id="less-channel" class="btn btn-secondary w-100" disabled>Canal -</button>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="row g-4 justify-content-center">
+                            <button id="silence" class="btn btn-success w-100">Silencio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
